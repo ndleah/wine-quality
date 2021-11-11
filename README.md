@@ -1,4 +1,7 @@
-# Cofounding Variables Exploration with Wine Quality Dataset
+![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
+# Cofounding Variables with Wine Quality <img src="img/wine.jpg" align="right" width="120" />
 
 ## Introduction
 
