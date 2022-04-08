@@ -14,9 +14,10 @@ output:
 
 Confounding variables (also known as lurking variables) are essentially factors that affect both the dependent and independent variables. Failing to account for these confounders could lead to incorrect conclusions when doing analysis for the dataset.
 
-To illustrate a basic example, I look at data concerned with a commodity that certainly had its share of consumption growth during the quarantine period: Wine.
+To illustrate a basic example, I look at data concerned with a commodity that certainly had its share of consumption growth during the quarantine period: Wine. I have chosen to keep the explanations high-level but do check out my [GitHub](https://github.com/ndleah/wine-quality-coufounding-variables) repository to view the detailed analysis and code in my R Scripts. 
 
-# About the dataset
+
+# The dataset
 
 This excersise will assess confounding in the Wine quality Datasets taken from [Kaggle](https://www.kaggle.com/rajyellow46/wine-quality). The datset contains the chemical properties of red and white variants of the Portuguese “Vinho Verde” wine. These chemical properties play a vital role in determining the quality of Wine.
 
@@ -265,4 +266,4 @@ ggplot(winequalityN) +
 
 # Conclusion
 
-In the above data analysis, Wine quality levels and wine type have been identified as confounding variables as they change the correlation(results) between different chemical properties by introducing bias and increasing variance when considered. Thus when woking on multivariate relationships it is important to identify and consider these variables when modelling.
+In the above data analysis, Wine quality levels and wine type have been identified as confounding variables as they change the correlation (results) between different chemical properties by introducing bias and increasing variance when considered. Thus when woking on multivariate relationships it is important to identify and consider these variables when modelling.
